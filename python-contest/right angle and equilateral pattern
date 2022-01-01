@@ -1,0 +1,22 @@
+def Equilpattern(num):
+        j=4
+        k=1
+        for i in range(num):
+     
+                print('  '*j,end='')
+                j-=1
+        
+                print('* '*k,end='')
+                k=k+2
+                print()
+ 
+def Right_angle_pyramid(m):
+        for i in range(1,n+1):
+                for j in range(i):
+                        print("* ",end='')
+                print()
+n=int(input())
+Equilpattern(n)
+ 
+print()
+Right_angle_pyramid(n)
