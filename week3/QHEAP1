@@ -1,0 +1,19 @@
+m = []
+N = int(input())
+track = set()
+for i in range(N):
+    value = input().split()
+    if b[0]!=3:
+       b = int(b[1])
+    
+    if b[0] == '1':
+       
+        track.add(b[0])
+        heapq.heappush(m,b)
+    elif b[0] == '2':
+         
+         track.remove(b[1])
+    else:
+        while  heap[0] not in track:
+            heapq.heappop(m)
+        print(m[0])
